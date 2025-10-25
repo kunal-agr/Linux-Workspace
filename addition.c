@@ -9,7 +9,15 @@ int main()
 	
 	printf("\nEnter second number:");
 	scanf("%d",&b);
-	int c = a + b;	// creating another box c to store the addition of two integers
-	printf("\nTotal is :%d",c);	// here i am just printing the answer, we can print the value of a variable using printf
+	
+	int add = a + b;	// creating another box c to store the addition of two integers
+	int sub = a - b;
+	int mul = a * b;
+	int div = a / b;
+
+	printf("\nTotal is :%d",add);	// here i am just printing the answer, we can print the value of a variable using printf
+	printf("\nTotal is :%d",sub);
+	printf("\nTotal is :%d",mul);
+	printf("\nTotal is :%d",div);
 	return 0;
 }
